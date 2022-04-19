@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.include-all{
+  background-color: aqua;
+  height: 100vh;
+}
+.web-pages{
+    margin-top: 40px;
+}
+.welcome-page{
+    margin-top: 20px; 
+}
+h{
+    font-size: xx-large;
+    color: chocolate;
+    font-weight: 600;
+}
+.image img{
+    
+   
+    text-align: center;
+   
+    width: 400px;
+    height: 300px;
+    border-radius: 15px 15px 15px 15px;
+}
+footer{
+    background-color: rgb(240, 98, 121);
+}
+p{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 600;
+    color: crimson;
+}
+.basic{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: medium;
+   
+}
+.simple-grid{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+   
+   
+    margin-left: 20px;
+}
+a{
+    color: white;
+    font-size: medium;
+
+}
+button{
+    border-radius: 8px 8px 8px 8px;
+    background-color: crimson;
+}
+@media (max-width: 800px){ 
+    .basic{
+        margin-left: 30px;
+    
+    }
+  
+    .simple-grid{
+        margin-right: 20px;
+       
+    }
+    .include-all{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        }
+    .image img{
+        text-align: center;
+        background-size: cover;
+        
+        width: 250px;
+        height: 250px;
+        border-radius: 15px 15px 15px 15px;
+    }
+    .navbar{
+        width: 100%;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    .all-body{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer{
+        
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
