@@ -5,7 +5,9 @@
 
 }
 .include-all{
-  background-color: aqua;
+    background:url(mypics/wp4974476.webp) no-repeat;
+    background-position: center center;
+    background-size: cover; 
   height: 100vh;
 }
 .web-pages{
@@ -29,13 +31,13 @@ h{
     border-radius: 15px 15px 15px 15px;
 }
 footer{
-    background-color: rgb(240, 98, 121);
+    background-color: rgb(122, 93, 98);
 }
 p{
     text-align: center;
     font-size: xx-large;
     font-weight: 600;
-    color: crimson;
+    color: whitesmoke;
 }
 .basic{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -57,7 +59,7 @@ a{
 }
 button{
     border-radius: 8px 8px 8px 8px;
-    background-color: crimson;
+    background-color:rgb(122, 93, 98);
 }
 @media (max-width: 800px){ 
     .basic{
@@ -65,6 +67,14 @@ button{
     
     }
   
+    /* .p1{
+       font-weight: 500; 
+       font-size: medium;
+    } */
+    .p{
+        font-weight: 500; 
+        font-size: medium;
+     }
     .simple-grid{
         margin-right: 20px;
        
@@ -93,6 +103,12 @@ button{
         margin-right: auto;
     }
     footer{
+        
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav{
         
         width: 100%;
         margin-left: auto;
